@@ -1,0 +1,8 @@
+def tablas_multiplicar():
+    tabla = int(input("Que tabla quieres ver: "))
+
+    for i in range(1,11):
+        valor = tabla*i
+        print(f"{tabla} x {i} = {valor}")
+
+tablas_multiplicar()
