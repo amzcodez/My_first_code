@@ -1,0 +1,13 @@
+#3 Dia programando, USUARIO Y CONTRASEÑA (SIMPLE)
+
+user = "angelmz"  # Nombre de usuario correcto
+password = 12345
+
+usuario = input("Introduzca su nombre de usuario: ").lower()  # Convertir a minúsculas
+contraseña = int(input("Introduzca su contraseña: "))
+
+# Comprobar cada carácter letra por letra del usuario y la contraseña, con el rango minimo
+if usuario == user and contraseña == password:
+    print("El nombre y contraseña son correctos")
+else:
+    print("INCORRECTO")
